@@ -163,7 +163,6 @@ words = {}
 words["BMP"] = "Bitmap"
 words["BTW"] = "By The Way"
 words["BRB"] = "Be Right Back"
-
 print(words["BMP"])
 print (words["BRB"])
 
@@ -369,6 +368,6 @@ try:
         # Perform file operations here
         pass
 except FileNotFoundError:
-    print('Could not open file')
   print('Program continue')
+
 
