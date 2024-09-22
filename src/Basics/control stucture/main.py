@@ -8,15 +8,15 @@ The if Statement may be combined with certain opreator such as equaltiy(==)
 # if <condition>:
 #<statement>
 x = 4
-# if x < 10:
-#     print("x below ten")
-# if x >10 :
-#         print("x is greater than ten")
-if x > 1 or  x < 4 : 
+if x < 10:
+    print("x below ten")
+    if x >10 :
+       print("x is greater than ten")
+if x > 1 and x <= 4 : 
                 print('x is range ')
 
 # if-Else : 
-gender = input("Gender?")
+gender = input("Gender? : ")
 if gender == "male" or gender == "female" : 
         print("You are male")
 else:
@@ -66,6 +66,12 @@ print('city loop: ')
 for x in city :
        print("city : " + x)
        print("\n") #newline
+
+drinks = ['coke', 'Pepsi', 'Sprite', 'water']
+
+for x in drinks :
+        print("drink : " + x)
+
 num = [1,2,3,5,8,7,9,4]
 print("x^2 loop : ")
 print('\n')
@@ -78,8 +84,9 @@ for x in num :
 A while loop end if and only if the condition is true , in contrast to a for loop that always has a finite 
 countable number numer of steps" """
 #Example :
-x = 11 
+x = 1
 while x < 10 :
        print(x)
        x= x+1
 else : print("invalid number")
+print('\n')

@@ -1,12 +1,12 @@
 import sys
 #0.1 fuction in python :
-""" The group sets of code you can use functions . fucntion are small parts od repreatable code. 
+""" The group sets of code you can use functions . fucntion are small parts of repreatable code. 
     A fuction accepts paramters without fuctions we only have a long list of instructions. fucntions can help you organize code.
      function can also be reused, often they are included in modules
 """
 #Example :
 """Function can be seen as excutable code blocks
-   A  function can be used once or more.
+   A function can be used once or more.
    Fucntion can be reusable , one can be used in multiple programs.
    The ptint function is an example of that.
    A simple exmaple of a fucntion is :
@@ -44,16 +44,12 @@ print(f"The sum of the list {mylist} is {result}.")
 
 # or 
 def custom_sum_list_with_length(mylist):
-    total = 0
-    for num in mylist:
-        total += num
-    return total, len(mylist)
-
+    return sum(mylist) , len( mylist)
 mylist = [1, 2, 3, 4, 5]
-x = len(mylist)
-result, length = custom_sum_list_with_length(mylist)
+result, length= custom_sum_list_with_length(mylist)
 print(f"The sum of the list {mylist} is {result}.")
-print(f"The length of the list is {x}.")
+print(f"The length of the list is {length}.")
+
 
 #List in python :
 """

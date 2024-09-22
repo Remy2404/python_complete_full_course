@@ -22,7 +22,7 @@ print(x[1])
 # Sub String :
 # By using a colon you can create a sub_String. if you start oe end numbers is written , python assumes you mean the first Char or last Char.
 x = "Sub String"
-s =x[0:3]
+s =x[1:2]
 print(s)
 s= x[:3]
 print(s)
@@ -71,7 +71,7 @@ sequence = (firstname , lastname)
 name = " ".join(sequence)
 print(name)
 
-#0.5 fine() in python : 
+#0.5 find() in python : 
 """ The find(query) method is built-in to Standard python 
 Just call the method on the string obj to search  for a String , like 
 so : obj.find("search").
